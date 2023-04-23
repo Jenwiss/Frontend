@@ -1,0 +1,21 @@
+.logo{
+    font-family: 'Mulish', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    color: $color-dark;
+    padding-top: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    &::before{
+    position: absolute;
+    content: '';
+    border-top: 4px solid $color-dark;
+    height: 35px;
+    width: 15px;
+    margin-left: 5px;
+    }
+    // Fråga hans om mitten sträcket och om det finns ett annat sätt att göra det på
+    // 1h.50min
+}
