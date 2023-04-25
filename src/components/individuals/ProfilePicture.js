@@ -13,9 +13,9 @@ const ProfilePicture = (/*parentPage*/) => {
 			<img src={imageUrl} alt='' className='rounded-circle' />
 			<button className='rounded-circle position-absolute bottom-0 end-0 text-light-color'>
 				{parentPage === 'profile' ? (
-					<i class='fa-light fa-pen-to-square'></i>
+					<i className='fa-light fa-pen-to-square'></i>
 				) : (
-					<i class='fa-light fa-camera'></i>
+					<i className='fa-light fa-camera'></i>
 				)}
 			</button>
 		</div>

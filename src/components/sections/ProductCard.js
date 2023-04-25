@@ -28,13 +28,13 @@ const ProductCard = () => {
 							onClick={() => setFavorite(!favorite)}
 						>
 							{favorite ? (
-								<i class='fa-solid fa-heart'></i>
+								<i className='fa-solid fa-heart'></i>
 							) : (
-								<i class='fa-light fa-heart text-light-color'></i>
+								<i className='fa-light fa-heart text-light-color'></i>
 							)}
 						</button>
 						<button className='btn rounded-circle'>
-							<i class='fa-light fa-bag-shopping text-light-color'></i>
+							<i className='fa-light fa-bag-shopping text-light-color'></i>
 						</button>
 					</div>
 				</div>

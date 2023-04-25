@@ -41,15 +41,15 @@ const ProductCardWide = () => {
 								onClick={() => setFavorite(!favorite)}
 							>
 								{favorite ? (
-									<i class='fa-solid fa-heart'></i>
+									<i className='fa-solid fa-heart'></i>
 								) : (
-									<i class='fa-light fa-heart text-light-color'></i>
+									<i className='fa-light fa-heart text-light-color'></i>
 								)}
 							</button>
 							<button className='btn rounded-circle shop-btn p-0'>
 								<span className='fa-stack '>
-									<i class='fa-light fa-bag-shopping text-light-color fa-stack-1x'></i>
-									<i class='fa-light fa-plus'></i>
+									<i className='fa-light fa-bag-shopping text-light-color fa-stack-1x'></i>
+									<i className='fa-light fa-plus'></i>
 								</span>
 							</button>
 						</div>
