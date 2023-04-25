@@ -1,10 +1,10 @@
 import React from "react"
-import Logo from "../individuals/Logo"
+import SideMenu from "../individuals/SideMenu"
 
 const HeaderLogin = () => {
     return(
-        <section>
-            <Logo></Logo>
+        <section className="area">
+            <SideMenu></SideMenu>
         </section>
     )
 }

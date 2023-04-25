@@ -1,0 +1,27 @@
+/* Input */
+
+.inputBox{
+    position: relative;
+    margin: 20px 10px;
+    width: 335px;
+}
+.inputBox input{
+    height: 50px;
+    width: 100%;
+    padding: 15px;
+    border: 1px solid rgba(0, 0, 0, 0.45);
+    background: white;
+    border-radius: 25px;
+    outline: none;
+    color: black;
+    font-size: 18px;
+}
+.inputBox label {
+    position: absolute;
+    left: 0;
+    color: black;
+    transform: translateX(10px) translateY(-3px);
+    font-size: 10px;
+    padding: 0 6px 0 6px;
+    background: white;
+}

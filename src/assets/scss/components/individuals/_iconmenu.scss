@@ -1,0 +1,20 @@
+/* icon placements */
+.menu{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr ;
+    
+}
+
+/* icons */
+.iconmenu {
+    display: flex;
+    justify-content: space-around;
+    margin: 1rem;
+    font-size: 24px;
+
+        &:hover {
+            text-decoration: none;
+            color: $color-theme;
+            cursor: pointer;
+        }
+}
