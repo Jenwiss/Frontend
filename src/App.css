@@ -1,9 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Mulish:wght@400;600;700&display=swap");
-html, body {
+html,
+body {
   font-family: "Mulish", sans-serif;
   font-weight: 400;
   font-size: 16px;
   color: #222529;
+}
+
+.text-light-color {
+  color: #626262;
 }
 
 a {
@@ -13,7 +18,7 @@ a {
 }
 a:hover {
   text-decoration: underline;
-  color: #DBE3F5;
+  color: #dbe3f5;
 }
 
 @media (min-width: 1600px) {
@@ -21,6 +26,50 @@ a:hover {
     max-width: 1680px;
   }
 }
+.product-card .sale-badge {
+  background-color: #69864d;
+  font-size: 0.5rem;
+  padding: 2px 6px;
+  color: #ffffff;
+  font-weight: 700;
+}
+.product-card .fa-solid.fa-heart {
+  color: #f4303c;
+}
+.product-card .card-body {
+  font-size: 0.875rem;
+}
+.product-card .card-body .sale-price {
+  color: #f4303c;
+}
+.product-card .card-body s {
+  font-size: 0.75rem;
+}
+.product-card-wide {
+  margin: 20px;
+  max-height: 100px;
+}
+.product-card-wide img {
+  max-height: 100px;
+  width: 100px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.product-card-wide .btn {
+  width: 40px;
+  height: 40px;
+}
+.product-card-wide .fa-stack {
+  width: 100%;
+}
+.product-card-wide .shop-btn {
+  background-color: #111111;
+  color: #ffffff;
+}
+.product-card-wide .shop-btn .fa-plus {
+  font-size: 0.5rem;
+}
+
 .logo {
   font-family: "Mulish", sans-serif;
   font-weight: 700;
