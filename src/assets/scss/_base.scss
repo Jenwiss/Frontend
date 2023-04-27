@@ -1,0 +1,26 @@
+//base look
+html, body {
+    font-family: 'Mulish', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: $color-dark;
+}
+
+//Links
+a {
+    color: $color-white;
+    text-decoration: none;
+    //Fading in and out
+    transition: all 0.2 ease-in-out;
+
+    //Hover over icons
+    &:hover {
+        text-decoration: underline;
+        color: $color-theme;
+    }
+}
+@media (min-width: 1600px){ 
+    .container {
+        max-width: $max-width;
+    }
+}
