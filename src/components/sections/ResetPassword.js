@@ -1,4 +1,5 @@
 import React from 'react';
+import Button from '../individuals/Button';
 
 const ResetPassword = () => {
 	return (
@@ -28,12 +29,13 @@ const ResetPassword = () => {
 					className='custom-input mx-auto rounded-pill my-3 p-3 w-100'
 					required
 				/>
-				<button
+				<Button btnType={'submit'} btnText={'CHANGE PASSWORD'} />
+				{/* <button
 					className='btn rounded-pill my-3 custom-btn p-3 w-100'
 					type='submit'
 				>
 					CHANGE PASSWORD
-				</button>
+				</button> */}
 			</form>
 		</div>
 	);

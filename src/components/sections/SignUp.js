@@ -1,5 +1,7 @@
 import React from 'react';
+import Button from '../individuals/Button';
 
+// CSS för SignUp finns i _resetPassword.scss (jag vet, det är inte bra /Per)
 const SignUp = () => {
 	return (
 		<div className='container d-flex flex-column'>
@@ -37,12 +39,13 @@ const SignUp = () => {
 					className='custom-input mx-auto rounded-pill my-3 p-3 w-100'
 					required
 				/>
-				<button
+				<Button btnType={'submit'} btnText={'SIGN UP'} />
+				{/* <button
 					className='btn rounded-pill my-3 custom-btn p-3 w-100'
 					type='submit'
 				>
 					SIGN UP
-				</button>
+				</button> */}
 			</form>
 			<p className='text-light-color mx-auto'>
 				Already have an account?{' '}
