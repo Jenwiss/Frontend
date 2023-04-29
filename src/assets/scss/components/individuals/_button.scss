@@ -1,0 +1,12 @@
+.custom-btn {
+	background-color: #111111;
+	color: white;
+	padding: 1rem;
+	&:hover {
+		border: #111111 solid 2px;
+	}
+	&:active {
+		padding: 0.9rem;
+		border: #111111 solid 4px;
+	}
+}
