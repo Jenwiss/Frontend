@@ -1,12 +1,13 @@
 import React from "react"
 import Logo from "../individuals/Logo"
 import StarRatings from "../individuals/StarRatings"
+import AccountCreated from "../individuals/AccountCreated"
 
 const HeaderLogin = () => {
     return(
         <section>
             <Logo></Logo>
-            <StarRatings></StarRatings>
+            <AccountCreated></AccountCreated>
         </section>
     )
 }

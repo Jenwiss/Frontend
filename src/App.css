@@ -68,3 +68,26 @@ button {
 .off {
   color: #ccc;
 }
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.account-img {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.rectangle-img {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  .account-img {
+    font-size: 14px;
+  }
+}
