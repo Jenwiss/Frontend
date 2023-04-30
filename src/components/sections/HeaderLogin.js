@@ -1,12 +1,12 @@
 import React from "react"
 import Logo from "../individuals/Logo"
-import Ratings from "../individuals/Ratings"
+import StarRatings from "../individuals/StarRatings"
 
 const HeaderLogin = () => {
     return(
         <section>
             <Logo></Logo>
-            <Ratings></Ratings>
+            <StarRatings></StarRatings>
         </section>
     )
 }

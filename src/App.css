@@ -40,6 +40,31 @@ a:hover {
   margin-left: 5px;
 }
 
-.stars {
+.star-rating {
+  font-size: 2em; /* Increase the font size of the stars */
+}
+
+.star-rating span {
+  display: inline-block;
+  font-size: 25px; /* Increase the font size of the star character */
+  cursor: pointer;
+}
+
+.star-rating span.on {
+  color: #FFBE00; /* Set the color of the active stars */
+}
+
+button {
+  background-color: transparent;
+  border: #FFBE00;
+  outline: none;
+  cursor: pointer;
+}
+
+.on {
   color: #FFBE00;
+}
+
+.off {
+  color: #ccc;
 }

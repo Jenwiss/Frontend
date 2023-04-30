@@ -1,3 +1,30 @@
-.stars {
-    color: $color-border-yellow;
-}
+.star-rating {
+    font-size: 2em; /* Increase the font size of the stars */
+  }
+  
+  .star-rating span {
+    display: inline-block;
+    font-size: 25px; /* Increase the font size of the star character */
+    cursor: pointer;
+  }
+  
+  .star-rating span.on {
+    color: $color-yellow; /* Set the color of the active stars */
+  }
+  
+
+button {
+    background-color: transparent;
+    border: $color-border-yellow;
+    outline: none;
+    cursor: pointer;
+  }
+  .on {
+    color: $color-yellow;
+  }
+  .off {
+    color: #ccc;
+  }
+
+  
+  
