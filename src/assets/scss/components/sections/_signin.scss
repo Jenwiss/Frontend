@@ -1,0 +1,108 @@
+@media screen and (min-width: 300px){ 
+    .signin-container{
+        display: grid;
+        
+    }
+    /* Buttons */
+    .buttons{
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        color: #000000;
+
+        .textbutton{
+            background-color: white;
+            border: none;
+            margin-top: 10px;
+            &:hover{
+                color: blue;
+            }
+        }
+        
+    }
+    
+    .radiobutton-section{
+        display: flex;
+        align-self: center;
+        justify-content: space-around;
+        margin-left: 30px;
+        grid-template-columns: 1fr 1fr;
+
+
+        input[type='radio'] {
+            position:absolute;
+            left: 30px;
+            margin-top: 4px;
+            box-sizing: border-box;
+            appearance: none;
+            background: white;
+            outline: 2px solid #DBE3F5;
+            border: 3px solid white;
+            border-radius: 3px;
+            width: 16px;
+            height: 16px;
+            
+            &:hover
+            {
+                cursor: pointer;
+            }
+
+            .input[type='radio']:checked {
+              background: #000000;
+            }
+          }
+          
+    
+          .forgotPasswordBtn{
+            border: none;
+            background-color: white;
+            color: black;
+            &:hover{
+                color: blue;
+            }
+          }
+
+    }
+    .backbutton{
+        display: grid;
+        justify-content: start;
+        font-size: 35px;
+        margin-left: 20px;
+        top: 35px;
+        position: relative;
+        &:hover{
+            cursor: pointer;
+        }
+    }
+
+    /* Text */
+    .signinText{
+        font-size: 18px;
+        font-weight: 600;
+        margin-top: 10px;
+
+    }
+
+    .breadtext{
+        display: grid;
+        align-items: center;
+        justify-content: center;
+
+        .signinToContinue{
+            font-size: 16px;
+            font-weight: 400;
+            margin-top: -10px;
+
+        }
+        .welcomeText{
+            font-size: 32px;
+            font-weight: 700;
+        }
+        .line{
+            margin-top: 1rem;
+            font-size: 30px;
+            font-weight: 300;
+        }
+    }
+
+}
