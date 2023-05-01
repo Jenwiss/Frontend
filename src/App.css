@@ -86,6 +86,23 @@ button {
   margin-bottom: 20px;
 }
 
+.account-discription {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.account-head {
+  font-weight: 700;
+  font-size: 22px;
+}
+
+.account-text {
+  font-size: 16px;
+}
+
 @media screen and (max-width: 768px) {
   .account-img {
     font-size: 14px;

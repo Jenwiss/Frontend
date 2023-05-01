@@ -12,7 +12,10 @@ const AccountCreated = () => {
             <div className='rectangle-img'>
                 <img src={Rectangle} alt='Rectangle'/> 
             </div>
-            <p className='account-head'>Account Created!</p>
+        </div>
+        <div className='account-discription'>
+          <p className='account-head'>Account Created!</p>
+          <p className='account-text'>Your account had beed created successfully.</p>
         </div>
     </div>
   )
