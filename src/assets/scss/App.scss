@@ -7,8 +7,12 @@
 @import './components/individuals/iconmenu';
 @import './components/individuals/sidemenu';
 @import './components/individuals/input';
-
+@import './components/individuals/button';
 
 // sections
 @import './components/sections/forgotPassword';
 @import './components/sections/signin';
+@import './components/sections/resetPassword';
+
+// views
+@import './components/views/confirmPasswordReset';
