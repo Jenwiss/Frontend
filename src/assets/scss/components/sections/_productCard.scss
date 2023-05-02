@@ -1,0 +1,47 @@
+.product-card {
+	.sale-badge {
+		background-color: $color-sale;
+		font-size: 0.5rem;
+		padding: 2px 6px;
+		color: $color-white;
+		font-weight: 700;
+	}
+	.fa-solid.fa-heart {
+		color: $color-attention;
+	}
+	.card-body {
+		font-size: 0.875rem;
+
+		.sale-price {
+			color: $color-attention;
+		}
+		s {
+			font-size: 0.75rem;
+		}
+	}
+
+	&-wide {
+		margin: 20px;
+		max-height: 100px;
+
+		img {
+			max-height: 100px;
+			width: 100px;
+			object-fit: cover;
+		}
+		.btn {
+			width: 40px;
+			height: 40px;
+		}
+		.fa-stack {
+			width: 100%;
+		}
+		.shop-btn {
+			background-color: $color-blackish;
+			color: $color-white;
+			.fa-plus {
+				font-size: 0.5rem;
+			}
+		}
+	}
+}

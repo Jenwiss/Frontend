@@ -1,0 +1,29 @@
+.profile-pic-container {
+	/////////////////
+	margin-top: 50px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: aquamarine;
+	////////////////////
+	width: 120px;
+	height: 120px;
+
+	img {
+		height: 100%;
+		width: auto;
+		border: solid $color-theme 6px;
+		//overflow: auto;
+		//box-sizing: content-box;
+	}
+	button {
+		border: none;
+		background-color: $color-theme;
+		height: 40px;
+		width: 40px;
+
+		&:active {
+			// border: solid 1px $color-text-light;
+			background-color: darken($color-theme, 10%);
+		}
+	}
+}
