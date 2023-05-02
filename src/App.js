@@ -1,6 +1,7 @@
 import './App.css';
-import { BrowserRouter, Routes, Route} from 'react-router-dom';
+import { BrowserRouter, Routes, Route, Navigate} from 'react-router-dom';
 import LoginView from './views/LoginView';
+import SignIn from './components/sections/SignIn';
 
 function App() {
   return (

@@ -4,12 +4,12 @@ import SideMenu from "../components/individuals/SideMenu";
 import Input from "../components/individuals/Input";
 import SignIn from "../components/sections/SignIn";
 import IconMenu from "../components/individuals/IconMenu";
-import Button from "../components/individuals/Button";
+import SignUp from "../components/sections/SignUp";
 
 const LoginView = () => {
     return(
         <div>
-            <ForgotPassword></ForgotPassword>
+            <SignUp></SignUp>
         </div>
     )
 }

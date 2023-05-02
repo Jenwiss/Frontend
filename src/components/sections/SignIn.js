@@ -1,9 +1,11 @@
 import React from "react"
 import Input from "../individuals/Input"
 import Button from "../individuals/Button"
-import { Link } from "react-router-dom"
+import { Link, useNavigate } from "react-router-dom"
 
 const SignIn = () => {
+    const navigate = useNavigate();
+    
     return(
         <section className="signin-container">
             <header>
@@ -26,10 +28,10 @@ const SignIn = () => {
                 <input type="radio" value="rememberMe" checked={true}/>
                 Remember me
                 </label>
-                <button type="text" className="forgotPasswordBtn">Forgot password?</button>
+                <button type="text" onClick={() => navigate("/ForgotPassword")} className="forgotPasswordBtn">Forgot password?</button>
             </div>
             <div className="buttons">
-                <button type="text" className="textbutton">Dont't have an account? Sign up</button>
+                <button type="text" onClick={() => navigate("/Signup")} className="textbutton">Dont't have an account? Sign up</button>
 
             </div>
 
