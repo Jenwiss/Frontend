@@ -1,12 +1,12 @@
 .custom-btn {
-	background-color: #111111;
+	background-color: $color-blackish;
 	color: white;
 	padding: 1rem;
 	&:hover {
-		border: #111111 solid 2px;
+		border: $color-blackish solid 2px;
 	}
 	&:active {
 		padding: 0.85rem;
-		border: #111111 solid 4px;
+		border: $color-blackish solid 4px;
 	}
 }

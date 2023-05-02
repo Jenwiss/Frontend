@@ -7,7 +7,7 @@ const SignUp = () => {
 		<div className='container d-flex flex-column'>
 			<div className='w-100 d-flex'>
 				<button className='nav-btn align-middle'>
-					<i className='fa-regular fa-chevron-left start-0'></i>
+					<i className='fa-regular fa-chevron-left'></i>
 				</button>
 				<h1 className='mx-auto page-heading my-3 width-fit-content'>Sign up</h1>
 			</div>
@@ -48,19 +48,19 @@ const SignUp = () => {
 				</button> */}
 			</form>
 			<p className='text-light-color mx-auto'>
-				Already have an account?{' '}
+				Already have an account?
 				<a className='form-link' href='#'>
 					Sign in.
 				</a>
 			</p>
 			<div className='d-flex form-width justify-content-center mx-auto socials-btn-row'>
-				<button className='btn rounded-circle m-2 border-theme'>
+				<button className='btn rounded-circle m-2'>
 					<i class='fa-brands fa-facebook-f'></i>
 				</button>
-				<button className='btn rounded-circle m-2 border-theme'>
+				<button className='btn rounded-circle m-2'>
 					<i class='fa-brands fa-twitter'></i>
 				</button>
-				<button className='btn rounded-circle m-2 border-theme'>
+				<button className='btn rounded-circle m-2'>
 					<i class='fa-brands fa-google-plus-g'></i>
 				</button>
 			</div>
